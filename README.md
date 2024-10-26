@@ -1,3 +1,1 @@
-# Phaser 3 - Basic Template
-
-- with intellisense
+Clicker Game from Phaser 3 Javascript
