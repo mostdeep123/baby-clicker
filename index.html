@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Game</title>
+    <script src="./lib/phaser.min.js"></script>
+    <script src="./src/scenes/mainScene.js"></script>
+    <script src="./src/scenes/preloadScene.js"></script>
+    <script src="./src/scenes/endScene.js"></script>
+    <script src="./src/components/phaserText.js"></script>
+    <script src="./src/components/phaserLogo.js"></script>
+    <script src="./src/components/firstLayer.js"></script>
+    <script src="./src/components/secondLayer.js"></script>
+    <script src="./src/components/food.js"></script>
+    <script src="./src/components/bgbebelac.js"></script>
+    <script src="./src/components/face.js"></script>
+    <script src="./src/game.js"></script>
+    <script src="./src/audio.js"></script>
+    <script>
+        
+    </script>
+    <style media='screen' type='text/css'>
+      *, ::after, ::before {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    p { margin: 12px; }
+    .alert .buttons {
+      float: right
+    }
+    h1 {text-align: center;}
+    canvas{
+      border-radius: 10px;
+    }
+    @font-face {
+        font-family: font1;
+        src: url('https://d24eqpince6acm.cloudfront.net/assets/fonts/GothamRounded-Bold.woff2');
+        font-size: 14;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Tittle Text">
+       <h1>Mini Game</h1>
+    </div>
+    <div id="phaser" style="overflow:hidden; width: 100%px;height: 590px;background-color: #FDB12B;"></div>
+    <div id="Footer Text">
+       <h1>Footer</h1>
+    </div>
+  </body>
+
+  <!--<div class="alert">
+    <p>This webpage would like to play sounds</p>
+    <p class="buttons">
+      <button value="0">Block</button>
+      <button value="1">Allow</button>
+    </p>
+  </div> -->
+</html>
