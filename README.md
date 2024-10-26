@@ -1,1 +1,1 @@
-Clicker Game from Phaser 3 Javascript
+Casual click Game from Phaser 3 Javascript
